@@ -48,15 +48,27 @@ Dans cet exemple, nous sélectionnons le 2ème élément de la liste et changeon
 # 6. Pseudo sélecteurs
 Cette technique permet d'insérer un image ou un élément html depuis le code CSS.
 ## Exemple avec ::before
-Ici un simple texte dans le corps d'un page html.
+Deux simples textes dans le corps d'un page html.
 ```html
-<p>Bravo, un bon score !</p>
+<p class="p1">Bravo, un bon score !</p>
+<hr>
+<p class="p2">Oups, un autre essai ?</p>
 ```
-Et dans le CSS
+Et dans le CSS, nous insérons un smiley avant le 1er texte, et un rond rouge avant le 2ème
 ```css
-p:before{
+.p1:before{
   content : "\01F642";
   padding-right: 10px;
+}
+
+.p2 { display: flex;}
+.p2:before {
+  content:"";
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: red;
 }
 ```
 
