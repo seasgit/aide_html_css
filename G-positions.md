@@ -1,7 +1,7 @@
 
 # Introduction
 On aborde ici trois types de positions.  
-__NB__ Attention, le positionnement est différent de l'alignement. Pour vous aider, associez position à _superposition_, _calque_
+__NB__  Le positionnement est différent de l'alignement. Pour vous aider, associez position à _superposition_, _calque_
 # Position relative
 Un élément en position relative peut être déplacé en utilisant ses propriétés css __left__ et __top__.
 ## Exemple 1 : 
