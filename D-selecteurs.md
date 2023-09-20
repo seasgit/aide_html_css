@@ -46,31 +46,10 @@ Dans cet exemple, nous sélectionnons le 2ème élément de la liste et changeon
     http://nthmaster.com/  
 
 # 6. Pseudo sélecteurs
-Cette technique permet d'insérer un image ou un élément html depuis le code CSS.
-## Exemple avec ::before
-Deux simples textes dans le corps d'un page html.
-```html
-<p class="p1">Bravo, un bon score !</p>
-<hr>
-<p class="p2">Oups, un autre essai ?</p>
-```
-Et dans le CSS, nous insérons un smiley avant le 1er texte, et un rond rouge avant le 2ème
-```css
-.p1:before{
-  content : "\01F642";
-  padding-right: 10px;
-}
-
-.p2 { display: flex;}
-.p2:before {
-  content:"";
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  background: red;
-}
-```
+Cette technique permet d'insérer un image ou un élément html depuis le code CSS.  
+Elle est très utilisée entre autre pour créer des effets.  
+__NB__ le contenu créé avec des pseudo sélecteurs n'est pas référençable par les robots de Google
+### [Exemple avec ::before](https://codepen.io/seasgit/pen/VwqyZbr)
 
 # 7. Sélecteur :root
 Utile par exemple pour créer des variables afin d'enregistrer des valeurs récurrentes d'une page web.
