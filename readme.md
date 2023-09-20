@@ -8,8 +8,9 @@ Des liens permettent de rediriger l’apprenant vers des ressources et documenta
 # Objectif
 L’objectif est mettre en pratique HTML/CSS rapidement au travers de petits exemples attractifs.  
 L'apprenant trouvera une explication ou une référence des techniques traitées dans des chapitres dédiés de ce support. 
-### 
-IL est important de poursuivre ses recherches par soi même pour trouver d’autres exemples utilisant telle ou telle technique et de multiplier la pratique.
+###
+Autant que possible, nous partirons d'une maquette ou d'une idée de mise en page dessinée au tableau.    
+__NB__ Dans un projet réel, l'intégration d'une page web démarrera souvent après la création d'une maquette réalisée depuis des outils tels que Adobe XD ou Figma..
 
 # Logiciels utilisés
 __Visual studio code__ avec les extensions __emmet__ et __live server__.  
