@@ -45,10 +45,10 @@ Dans cet exemple, nous sélectionnons le 2ème élément de la liste et changeon
     https://css-tricks.com/examples/nth-child-tester/
     http://nthmaster.com/  
 
-# 6. Pseudo sélecteurs
+# 6. Pseudo éléments
 Cette technique permet d'insérer un image ou un élément html depuis le code CSS.  
 Elle est très utilisée entre autre pour créer des effets.  
-__NB__ le contenu créé avec des pseudo sélecteurs n'est pas référençable par les robots de Google
+__NB__ le contenu créé avec des pseudo éléments n'est pas référençable par les robots de Google
 ### [Exemple avec ::before](https://codepen.io/seasgit/pen/VwqyZbr)
 
 # 7. Sélecteur :root
