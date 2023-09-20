@@ -4,7 +4,7 @@
 CSS est l'acronyme de _Cascading Style Sheets_. 
 Le terme _Cascade_ est en rapport avec des notions d'héritage et de surcharge de style. _(A voir en cours avec la pratique.)_  
 
-Le langage CSS permet de mettre en page, d'aligner le contenu HTML. Il lui apporte aussi un style répondant à une identité visuelle recherchée.  
+Le langage CSS permet de mettre en page, d'aligner le contenu HTML, apporter un style répondant à une identité visuelle recherchée.   
 Le lien HTML/CSS est à l'intérieur des balises `<head></head>` d'un document HTML.
 ```html
 <head>
