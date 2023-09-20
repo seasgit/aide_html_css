@@ -1,5 +1,5 @@
 
-# 1. HTML5
+# 1. HTML 
 ## définition
 HTML est l'acronyme de `HyperText Markup Langage`.   
 HTML est un langage de balisage dont le rôle est de structurer le contenu de pages web.   
@@ -15,7 +15,7 @@ Toujours faire `ouvrir un dossier` ou `nouveau dossier` afin d'avoir l'onglet ga
 ![](./captures/open-folder.jpg)
 
 Ensuite, créer un Fichier avec un nom sans accent ni espace : __first-page.html__    
-Une fois créé, le code ci-dessous peut être produit en tapant __!__ puis touche __tab__ ou __entrée__.
+Si emmet est installé, le code ci-dessous peut être produit en tapant __!__ puis touche __tab__ ou __entrée__.
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +31,8 @@ Une fois créé, le code ci-dessous peut être produit en tapant __!__ puis touc
 </html>
 ```
 ## Dans `<head>`
-La balise head ne s'affiche pas dans le document, elle contient tout ce dont à besoin la page pour s'afficher et fonctionner correctement.    _styles, scripts, polices de caractères, et autres metadonnées_. 
+La balise head ne s'affiche pas dans le document.  
+Elle contient tout ce dont à besoin la page pour s'afficher et fonctionner correctement.    _styles, scripts, polices de caractères, et autres metadonnées_. 
 ## Dans `<body>`
 C'est là qu'on intègre le contenu de la page dans des balises qui représenteront le mieux chaque élément de la page.  
 * Un titre de page : `<h1>Carnet de route</h1>`
@@ -83,7 +84,7 @@ On donne l'url complète du document.
     - Lien vers Google :   
     `<a href="https://www.google.com" target="_blank">Page d'accueil Google</a>`    
 ## Adressage relatif 
-On donne une adresse qui est relative à l'emplacement du fichier appelant au sein d'une architecture de dossiers d'un site web.
+Prenons le cas d'images. L'adresse est relative à l'emplacement du fichier html.  
     - Ici une image placée dans le même que le document appelant :  
     `<img src='./pexels-photo-2775862.jpeg' />`     
     - Ici une image contenue dans un sous-dossier nommé _images_ :  
@@ -100,7 +101,7 @@ L'url peut être  :
 
 # 6. Les balises conteneur
 Les conteneurs permettent de regrouper plusieurs contenus dans des balises sémantiques.
-Le balises dites conteneur, prennetnt toute leur importance avec css dans la construction de modèles de pages web. 
+Le balises dites conteneur, prennent toute leur importance avec css dans la construction de modèles de pages web. 
 ## `<div>`
 C'est le plus ancien conteneur. Il n'est pas sémantique. [div](https://developer.mozilla.org/fr/docs/Web/HTML/Element/div) 
 ## `<article>`
@@ -112,5 +113,5 @@ Selon le cas, on peut trouver une balise nommée `<article>`, ou encore `<figure
 
 Il n'y a pas d'obligation à utiliser telle ou telle balise. C'est juste du bon sens et faciliter la lecture par les robots référenceurs.
 
-documentation [structurer un document](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure).  
+Documentation [structurer un document](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure).  
 
