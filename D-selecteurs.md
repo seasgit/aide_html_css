@@ -1,8 +1,7 @@
 # 1. Introduction
 Il existe plusieurs façons de relier un élement HTML à son style CSS. Tout passe par des __sélecteurs.__
 
-
-Ce chapitre montre quelques manières. Les exercices permettront d'aller plus loin et comprendre l'intérêt de bien sélectionner 
+Ce chapitre montrera en l'occurrence l'utilisation des sélecteurs reliés aux classes 
 
 # 2. Sélecteurs naturels
 Les sélecteurs naturels font directement référence à des éléments html sans nom.  
@@ -25,22 +24,16 @@ Les sélecteurs classe, permettent de créer des catégories de règles css appl
 Un élément html identifié doit être unique dans une page. 
 ### [Exemple avec sélecteur id](https://codepen.io/seasgit/pen/WNJRjdZ)
 ## 
-
-## Navigation interne  
-Donner un attribut id sert aussi quand on doit naviguer au sein d’une même page.     
-Pour cela il faut une correspondance entre le contenu d'un attribut href et celui d'un attribut id. 
-
-### [Exemple](https://codepen.io/seasgit/pen/RwyKVJa)
+Donner un attribut id sert aussi quand on doit naviguer au sein d’une même page.       
+### [Navigation interne](https://codepen.io/seasgit/pen/RwyKVJa)
 ## 
 
 
 # 5. Pseudo classes
 les pseudos classes sont des fonctionnalités associées au sélecteurs. On peut par exemple : 
 -  gérer un survol sur un texte ou une boîte
--  cibler un élément via un numéro de positionnent
-- 
+-  cibler un élément via un numéro de positionnent.
 ## Effet de survol
-Au survol de la souris sur un élement sa couleur change 
 ### [Exemple avec des ancres](https://codepen.io/seasgit/pen/xxjdYzJ)
 ### [Exemple avec un paragraphe et son span](https://codepen.io/seasgit/pen/WNJjMmR)
 
@@ -52,8 +45,22 @@ Dans cet exemple, nous sélectionnons le 2ème élément de la liste et changeon
     https://css-tricks.com/examples/nth-child-tester/
     http://nthmaster.com/  
 
+# 6. Pseudo sélecteurs
+Cette technique permet d'insérer un image ou un élément html depuis le code CSS.
+## Exemple avec ::before
+Ici un simple texte dans le corps d'un page html.
+```html
+<p>Bravo, un bon score !</p>
+```
+Et dans le CSS
+```css
+p:before{
+  content : "\01F642";
+  padding-right: 10px;
+}
+```
 
-# 6. Sélecteur :root
+# 7. Sélecteur :root
 Utile par exemple pour créer des variables afin d'enregistrer des valeurs récurrentes d'une page web.
 - Exp : couleurs, ombres, bordures, etc ...
 Ci-dessous, une variable contient une couleur, l'autre les valeurs pour une ombre diffuse.
@@ -70,10 +77,8 @@ __NB__  :  une variable est appelée ensuite comme ceci :
 ```
 
 # 7. Le poids des sélecteurs
-IL est possible de perdre un peu avec les sélecteurs si nous ne maîtrisons pas l'ordre d'importance ou les combinaisons
-des différents types de sélecteurs.  
-Voyons cela avec un exemple pratique avec faire sous VSC ou codepen 
-##  exemple 
+IL est important de maîtriser l'ordre d'importance ou les combinaisons des différents types de sélecteurs.  
+##  Exemple du problème 
 Soit un paragraphe avec deux attributs : identifiant et class.
 ```html
 <p class="p1" id="p1">HTML5 CSS</p>
