@@ -1,5 +1,5 @@
 
-# 1. propriété display 
+# Propriété display 
 La propriété display permet de définir le type d'alignement d'élements dans une page ou dans une boîte.  
 Il existe beaucoup de possibilités d'alignments.  
 
@@ -12,7 +12,7 @@ On peut voir dans l'exemple suivant le résultat.
   
   [display block vs inline](https://codepen.io/seasgit/pen/mdLMoOZ)
 
-# 2 display: none vs visiblity: hidden
+## display: none vs visiblity: hidden
 Quand on veut masquer un élément de la page il y a deux possibilités : 
 Avec `display:none` la place est récupérée par le navigateur. Cela peut créer un décalage.    
 Dans certains cas il vaudra mieux utiliser `visibility: hidden`.  
@@ -20,7 +20,7 @@ Dans certains cas il vaudra mieux utiliser `visibility: hidden`.
 [Exemple](https://codepen.io/seasgit/pen/wvjqOeM)
 
 
-# 3. Flexbox  ou "_CSS Flexible Box Layout Module_". 
+# Flexbox  ou "_CSS Flexible Box Layout Module_". 
 Flexbox permet d'aligner intelligemment des éléments de page dans des conteneurs.  
 
 > __A retenir :__  
