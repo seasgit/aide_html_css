@@ -2,7 +2,8 @@
 # Propriété display 
 La propriété display permet de définir le type d'alignement d'élements dans une page ou dans une boîte.  
 Il existe beaucoup de possibilités d'alignments.  
-
+###
+[display](https://developer.mozilla.org/fr/docs/Web/CSS/display)
 
 ## display:block versus display:inline
 Un élément tel que le _div_ a par défaut la propriété `display:block`.  
