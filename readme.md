@@ -3,9 +3,12 @@ La construction de pages web demande avant tout de connaître les langages HTML 
 Ce support de cours est une aide pour les débutants qui suivent en parallèle des cours pratiques d’intégration web.  
 Des liens permettent de rediriger l’apprenant vers des ressources et documentations en ligne plus exhaustives.  
 
+### Documentation : [developer.mozilla](https://developer.mozilla.org/fr/docs/Web/)  
+
 # Objectif
 L’objectif est mettre en pratique HTML/CSS rapidement au travers de petits exemples attractifs.  
-Pour les techniques qui seront employées, l’apprenant  trouvera une explication ou une référence dans des chapitres dédiés.  
+L'apprenant trouvera une explication ou une référence des techniques traitées dans des chapitres dédiés de ce support. 
+### 
 IL est important de poursuivre ses recherches par soi même pour trouver d’autres exemples utilisant telle ou telle technique et de multiplier la pratique.
 
 # Logiciels utilisés

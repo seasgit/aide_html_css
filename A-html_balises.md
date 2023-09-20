@@ -2,12 +2,9 @@
 # 1. HTML5
 ## définition
 HTML est l'acronyme de `HyperText Markup Langage`.   
-HTML est un langage de balisage dont le rôle est de structurer le contenu de pages web. 
-La version avec laquelle nous travaillons est HTML5.  
+HTML est un langage de balisage dont le rôle est de structurer le contenu de pages web.   
 On parle de __HTML5 sémantique__ car ses balises ont un rôle plus précis qu'avant dans la gestion du contenu d'un site web.
-## Ressources en ligne
-Comme indiqué dans la pahe Home, La documentation proposée par Mozilla est exhausitive.   
-On peut trouver aussi des résultats à partir d'un recherche par mots clé. On tape par exemple dans google _"html élément titre"_   
+
 
 # 2. Structure d'un document HTML
 
@@ -17,8 +14,8 @@ Toujours faire `ouvrir un dossier` ou `nouveau dossier` afin d'avoir l'onglet ga
 
 ![](./captures/open-folder.jpg)
 
-Créer un Fichier avec un nom sans accent ni espace : __first-page.html__  
-Une fois créé, le code ci-dessous peut être produit en tapant __!__ puis touche __tab__ ou __entrée__, selon l'IDE.
+Ensuite, créer un Fichier avec un nom sans accent ni espace : __first-page.html__    
+Une fois créé, le code ci-dessous peut être produit en tapant __!__ puis touche __tab__ ou __entrée__.
 ```html
 <!DOCTYPE html>
 <html lang="en">
