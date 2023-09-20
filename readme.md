@@ -12,6 +12,6 @@ IL est important de poursuivre ses recherches par soi même pour trouver d’aut
 __Visual studio code__ avec les extensions __emmet__ et __live server__.  
 Lien : https://code.visualstudio.com/
 
-# progression du cours
+# Progression du cours
 Une sauvegarde régulière sera accessible despuis https://github.com/seasgit/nom_de_la_classe
 
