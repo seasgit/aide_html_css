@@ -16,6 +16,5 @@ __NB__ Dans un projet réel, l'intégration d'une page web démarrera souvent ap
 __Visual studio code__ avec les extensions __emmet__ et __live server__.  
 Lien : https://code.visualstudio.com/
 
-# Progression du cours
-Une sauvegarde régulière sera accessible despuis https://github.com/seasgit/nom_de_la_classe
+
 
