@@ -1,7 +1,9 @@
 # Introduction 
 La construction de pages web demande avant tout de connaître les langages HTML et CSS.  
 Ce support de cours est une aide pour les débutants qui suivent en parallèle des cours pratiques d’intégration web.  
-Des liens permettent de rediriger l’apprenant vers des ressources et documentations en ligne plus exhaustives.  
+Des liens permettent de rediriger l’apprenant vers des ressources et documentations en ligne plus exhaustives. 
+## Sites existants
+Si nous faisons un petit tour sur le web, en simplifiant une peu on peut voir que les sites sont structurés en petites boîtes contenant textes et images. 
 
 ### Documentation : [developer.mozilla](https://developer.mozilla.org/fr/docs/Web/)  
 
