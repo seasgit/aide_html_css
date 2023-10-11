@@ -7,9 +7,10 @@ Si nous faisons un petit tour sur le web, en simplifiant une peu on peut voir qu
 
 ### Documentation : [developer.mozilla](https://developer.mozilla.org/fr/docs/Web/)  
 
-# Objectif
-L’objectif est mettre en pratique HTML/CSS rapidement au travers de petits exemples attractifs.  
-L'apprenant trouvera une explication ou une référence des techniques traitées dans des chapitres dédiés de ce support. 
+# Objectifs
+- S'inspirer de l'existant pour créer des composants de page web.
+- Mettre en pratique HTML/CSS rapidement au travers de petits exemples attractifs.  
+- Trouver une explication ou une référence des techniques traitées dans des chapitres dédiés de ce support. 
 ###
 Autant que possible, nous partirons d'une maquette ou d'une idée de mise en page dessinée au tableau.    
 __NB__ Dans un projet réel, l'intégration d'une page web démarrera souvent après la création d'une maquette réalisée depuis des outils tels que Adobe XD ou Figma..
