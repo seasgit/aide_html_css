@@ -24,7 +24,7 @@ Lien :  https://codepen.io/
 1. Codepen est une plateforme de test en ligne très populaire chez les développeurs.  
 2. Elle est gratuite. Il faut se créer un compte et configurer un peu l'interface.
 3. Elle est pratique car on voit le code HTML, CSS et Javascript ainsi que le rendu en temps réel.
-## Mes exemple de cours
+### Mes exemple de cours
 ce support de cours contient des exemples que j'ai réalisé sur codepen.
 
 
